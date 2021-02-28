@@ -1,0 +1,12 @@
+.link-showcase {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba($color: #808080, $alpha: .3);
+  border-radius: 10px;
+  overflow: hidden;
+
+  &__image {
+    width: 100%;
+    cursor: pointer;
+  }
+}
