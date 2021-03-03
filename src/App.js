@@ -1,13 +1,9 @@
-import LinkShowcase from './components/LinkShowcase';
+import Card from './components/Card';
 
 function App() {
   return (
-    <div style={{ width: "350px" }}>
-      <LinkShowcase
-        linkTitle="test"
-        linkDescription="test estsetwefowefjwe ofwoepfjwop ewefowkefop wkefopwek fopwekfopw"
-        linkRef="http://google.com"
-      />
+    <div style={{width: "350px"}}>
+      <Card />
     </div>
   );
 }
